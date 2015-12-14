@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0862EE1BE8A72000D761DD /* Creep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0862ED1BE8A72000D761DD /* Creep.m */; };
+		3A152E7F1BE02348002A086B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A152E7E1BE02348002A086B /* AppDelegate.m */; };
+		3A152E821BE02348002A086B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A152E811BE02348002A086B /* main.m */; };
+		3A152E851BE02348002A086B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A152E841BE02348002A086B /* GameScene.m */; };
+		3A152E871BE02348002A086B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3A152E861BE02348002A086B /* GameScene.sks */; };
+		3A152E891BE02348002A086B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A152E881BE02348002A086B /* Assets.xcassets */; };
+		3A152E8C1BE02348002A086B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A152E8A1BE02348002A086B /* MainMenu.xib */; };
+		3A152E971BE02348002A086B /* TowerDefenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A152E961BE02348002A086B /* TowerDefenseTests.m */; };
+		3A152EA21BE02348002A086B /* TowerDefenseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A152EA11BE02348002A086B /* TowerDefenseUITests.m */; };
+		3A3903A11BE97B22009B5762 /* SniperTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3903A01BE97B22009B5762 /* SniperTower.m */; };
+		3A3903A31BE98145009B5762 /* SniperShot.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3A3903A21BE98145009B5762 /* SniperShot.sks */; };
+		3A4015FD1BE8366E00B4AFB3 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4015FC1BE8366E00B4AFB3 /* Tower.m */; };
+		3AC65FEA1BE6BEC100303796 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC65FE91BE6BEC100303796 /* GameObject.m */; };
+		6722AFA41BE8F20A00A90100 /* GoalSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6722AFA31BE8F20A00A90100 /* GoalSmoke.sks */; };
+		6722AFA71BE8F2F700A90100 /* CreepDeath.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6722AFA51BE8F2F700A90100 /* CreepDeath.sks */; };
+		6722AFA81BE8F2F700A90100 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 6722AFA61BE8F2F700A90100 /* bokeh.png */; };
+		6722AFAD1BE906F400A90100 /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722AFAC1BE906F400A90100 /* EndScene.m */; };
+		67A7AC3D1BE8C27E009231E0 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A7AC3C1BE8C27E009231E0 /* Bullet.m */; };
+		67A7AC401BE8D04B009231E0 /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A7AC3F1BE8D04B009231E0 /* Goal.m */; };
+		67BEBFBA1BE8EAE30007E6CC /* BulletParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBFB81BE8EAE30007E6CC /* BulletParticle.sks */; };
+		67BEBFBB1BE8EAE30007E6CC /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBFB91BE8EAE30007E6CC /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A152E931BE02348002A086B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A152E721BE02348002A086B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A152E791BE02348002A086B;
+			remoteInfo = TowerDefense;
+		};
+		3A152E9E1BE02348002A086B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A152E721BE02348002A086B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A152E791BE02348002A086B;
+			remoteInfo = TowerDefense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0862EC1BE8A72000D761DD /* Creep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creep.h; path = GameLogic/GameObjects/Creep.h; sourceTree = "<group>"; };
+		3A0862ED1BE8A72000D761DD /* Creep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Creep.m; path = GameLogic/GameObjects/Creep.m; sourceTree = "<group>"; };
+		3A152E7A1BE02348002A086B /* TowerDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A152E7D1BE02348002A086B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A152E7E1BE02348002A086B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A152E811BE02348002A086B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A152E831BE02348002A086B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		3A152E841BE02348002A086B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		3A152E861BE02348002A086B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3A152E881BE02348002A086B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A152E8B1BE02348002A086B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A152E8D1BE02348002A086B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A152E921BE02348002A086B /* TowerDefenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerDefenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A152E961BE02348002A086B /* TowerDefenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerDefenseTests.m; sourceTree = "<group>"; };
+		3A152E981BE02348002A086B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A152E9D1BE02348002A086B /* TowerDefenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerDefenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A152EA11BE02348002A086B /* TowerDefenseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerDefenseUITests.m; sourceTree = "<group>"; };
+		3A152EA31BE02348002A086B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A39039F1BE97B22009B5762 /* SniperTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SniperTower.h; path = towerdefense/gamelogic/GameObjects/SniperTower.h; sourceTree = SOURCE_ROOT; };
+		3A3903A01BE97B22009B5762 /* SniperTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SniperTower.m; path = towerdefense/gamelogic/GameObjects/SniperTower.m; sourceTree = SOURCE_ROOT; };
+		3A3903A21BE98145009B5762 /* SniperShot.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = SniperShot.sks; path = towerdefense/Assets.xcassets/SniperShot.sks; sourceTree = SOURCE_ROOT; };
+		3A4015FB1BE8366E00B4AFB3 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = GameLogic/GameObjects/Tower.h; sourceTree = "<group>"; };
+		3A4015FC1BE8366E00B4AFB3 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = GameLogic/GameObjects/Tower.m; sourceTree = "<group>"; };
+		3AC65FE81BE6BEC100303796 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = GameLogic/GameObject.h; sourceTree = "<group>"; };
+		3AC65FE91BE6BEC100303796 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameObject.m; path = GameLogic/GameObject.m; sourceTree = "<group>"; };
+		6722AFA31BE8F20A00A90100 /* GoalSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GoalSmoke.sks; path = towerdefense/Assets.xcassets/GoalSmoke.sks; sourceTree = SOURCE_ROOT; };
+		6722AFA51BE8F2F700A90100 /* CreepDeath.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = CreepDeath.sks; path = towerdefense/Assets.xcassets/CreepDeath.sks; sourceTree = SOURCE_ROOT; };
+		6722AFA61BE8F2F700A90100 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = towerdefense/Assets.xcassets/bokeh.png; sourceTree = SOURCE_ROOT; };
+		6722AFAB1BE906F400A90100 /* EndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndScene.h; path = towerdefense/EndScene.h; sourceTree = SOURCE_ROOT; };
+		6722AFAC1BE906F400A90100 /* EndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndScene.m; path = towerdefense/EndScene.m; sourceTree = SOURCE_ROOT; };
+		67A7AC3B1BE8C27E009231E0 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bullet.h; path = towerdefense/gamelogic/GameObjects/Bullet.h; sourceTree = SOURCE_ROOT; };
+		67A7AC3C1BE8C27E009231E0 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bullet.m; path = towerdefense/gamelogic/GameObjects/Bullet.m; sourceTree = SOURCE_ROOT; };
+		67A7AC3E1BE8D04B009231E0 /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Goal.h; path = towerdefense/gamelogic/GameObjects/Goal.h; sourceTree = SOURCE_ROOT; };
+		67A7AC3F1BE8D04B009231E0 /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Goal.m; path = towerdefense/gamelogic/GameObjects/Goal.m; sourceTree = SOURCE_ROOT; };
+		67BEBFB81BE8EAE30007E6CC /* BulletParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BulletParticle.sks; path = towerdefense/Assets.xcassets/BulletParticle.sks; sourceTree = SOURCE_ROOT; };
+		67BEBFB91BE8EAE30007E6CC /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = towerdefense/Assets.xcassets/spark.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A152E771BE02348002A086B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A152E8F1BE02348002A086B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A152E9A1BE02348002A086B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A152E711BE02348002A086B = {
+			isa = PBXGroup;
+			children = (
+				3A152E7C1BE02348002A086B /* TowerDefense */,
+				3A152E951BE02348002A086B /* TowerDefenseTests */,
+				3A152EA01BE02348002A086B /* TowerDefenseUITests */,
+				3A152E7B1BE02348002A086B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A152E7B1BE02348002A086B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A152E7A1BE02348002A086B /* TowerDefense.app */,
+				3A152E921BE02348002A086B /* TowerDefenseTests.xctest */,
+				3A152E9D1BE02348002A086B /* TowerDefenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A152E7C1BE02348002A086B /* TowerDefense */ = {
+			isa = PBXGroup;
+			children = (
+				3A152E7D1BE02348002A086B /* AppDelegate.h */,
+				3A152E7E1BE02348002A086B /* AppDelegate.m */,
+				3A152E831BE02348002A086B /* GameScene.h */,
+				3A152E841BE02348002A086B /* GameScene.m */,
+				3A152E861BE02348002A086B /* GameScene.sks */,
+				3A152E881BE02348002A086B /* Assets.xcassets */,
+				3A152E8A1BE02348002A086B /* MainMenu.xib */,
+				3A152E8D1BE02348002A086B /* Info.plist */,
+				3A152E801BE02348002A086B /* Supporting Files */,
+				3AC65FE81BE6BEC100303796 /* GameObject.h */,
+				3AC65FE91BE6BEC100303796 /* GameObject.m */,
+				3A4015FB1BE8366E00B4AFB3 /* Tower.h */,
+				3A4015FC1BE8366E00B4AFB3 /* Tower.m */,
+				3A0862EC1BE8A72000D761DD /* Creep.h */,
+				3A0862ED1BE8A72000D761DD /* Creep.m */,
+				67A7AC3B1BE8C27E009231E0 /* Bullet.h */,
+				67A7AC3C1BE8C27E009231E0 /* Bullet.m */,
+				67A7AC3E1BE8D04B009231E0 /* Goal.h */,
+				67A7AC3F1BE8D04B009231E0 /* Goal.m */,
+				67BEBFB81BE8EAE30007E6CC /* BulletParticle.sks */,
+				67BEBFB91BE8EAE30007E6CC /* spark.png */,
+				6722AFA31BE8F20A00A90100 /* GoalSmoke.sks */,
+				6722AFA51BE8F2F700A90100 /* CreepDeath.sks */,
+				6722AFA61BE8F2F700A90100 /* bokeh.png */,
+				6722AFAB1BE906F400A90100 /* EndScene.h */,
+				6722AFAC1BE906F400A90100 /* EndScene.m */,
+				3A39039F1BE97B22009B5762 /* SniperTower.h */,
+				3A3903A01BE97B22009B5762 /* SniperTower.m */,
+				3A3903A21BE98145009B5762 /* SniperShot.sks */,
+			);
+			path = TowerDefense;
+			sourceTree = "<group>";
+		};
+		3A152E801BE02348002A086B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A152E811BE02348002A086B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A152E951BE02348002A086B /* TowerDefenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A152E961BE02348002A086B /* TowerDefenseTests.m */,
+				3A152E981BE02348002A086B /* Info.plist */,
+			);
+			path = TowerDefenseTests;
+			sourceTree = "<group>";
+		};
+		3A152EA01BE02348002A086B /* TowerDefenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A152EA11BE02348002A086B /* TowerDefenseUITests.m */,
+				3A152EA31BE02348002A086B /* Info.plist */,
+			);
+			path = TowerDefenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A152E791BE02348002A086B /* TowerDefense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A152EA61BE02348002A086B /* Build configuration list for PBXNativeTarget "TowerDefense" */;
+			buildPhases = (
+				3A152E761BE02348002A086B /* Sources */,
+				3A152E771BE02348002A086B /* Frameworks */,
+				3A152E781BE02348002A086B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerDefense;
+			productName = TowerDefense;
+			productReference = 3A152E7A1BE02348002A086B /* TowerDefense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A152E911BE02348002A086B /* TowerDefenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A152EA91BE02348002A086B /* Build configuration list for PBXNativeTarget "TowerDefenseTests" */;
+			buildPhases = (
+				3A152E8E1BE02348002A086B /* Sources */,
+				3A152E8F1BE02348002A086B /* Frameworks */,
+				3A152E901BE02348002A086B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A152E941BE02348002A086B /* PBXTargetDependency */,
+			);
+			name = TowerDefenseTests;
+			productName = TowerDefenseTests;
+			productReference = 3A152E921BE02348002A086B /* TowerDefenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A152E9C1BE02348002A086B /* TowerDefenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A152EAC1BE02348002A086B /* Build configuration list for PBXNativeTarget "TowerDefenseUITests" */;
+			buildPhases = (
+				3A152E991BE02348002A086B /* Sources */,
+				3A152E9A1BE02348002A086B /* Frameworks */,
+				3A152E9B1BE02348002A086B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A152E9F1BE02348002A086B /* PBXTargetDependency */,
+			);
+			name = TowerDefenseUITests;
+			productName = TowerDefenseUITests;
+			productReference = 3A152E9D1BE02348002A086B /* TowerDefenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A152E721BE02348002A086B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AdrianAlbi;
+				TargetAttributes = {
+					3A152E791BE02348002A086B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3A152E911BE02348002A086B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3A152E791BE02348002A086B;
+					};
+					3A152E9C1BE02348002A086B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3A152E791BE02348002A086B;
+					};
+				};
+			};
+			buildConfigurationList = 3A152E751BE02348002A086B /* Build configuration list for PBXProject "TowerDefense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A152E711BE02348002A086B;
+			productRefGroup = 3A152E7B1BE02348002A086B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A152E791BE02348002A086B /* TowerDefense */,
+				3A152E911BE02348002A086B /* TowerDefenseTests */,
+				3A152E9C1BE02348002A086B /* TowerDefenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A152E781BE02348002A086B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BEBFBB1BE8EAE30007E6CC /* spark.png in Resources */,
+				3A152E891BE02348002A086B /* Assets.xcassets in Resources */,
+				3A3903A31BE98145009B5762 /* SniperShot.sks in Resources */,
+				67BEBFBA1BE8EAE30007E6CC /* BulletParticle.sks in Resources */,
+				3A152E871BE02348002A086B /* GameScene.sks in Resources */,
+				6722AFA71BE8F2F700A90100 /* CreepDeath.sks in Resources */,
+				6722AFA81BE8F2F700A90100 /* bokeh.png in Resources */,
+				6722AFA41BE8F20A00A90100 /* GoalSmoke.sks in Resources */,
+				3A152E8C1BE02348002A086B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A152E901BE02348002A086B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A152E9B1BE02348002A086B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A152E761BE02348002A086B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3903A11BE97B22009B5762 /* SniperTower.m in Sources */,
+				67A7AC3D1BE8C27E009231E0 /* Bullet.m in Sources */,
+				3AC65FEA1BE6BEC100303796 /* GameObject.m in Sources */,
+				3A152E821BE02348002A086B /* main.m in Sources */,
+				3A152E851BE02348002A086B /* GameScene.m in Sources */,
+				67A7AC401BE8D04B009231E0 /* Goal.m in Sources */,
+				3A0862EE1BE8A72000D761DD /* Creep.m in Sources */,
+				3A4015FD1BE8366E00B4AFB3 /* Tower.m in Sources */,
+				6722AFAD1BE906F400A90100 /* EndScene.m in Sources */,
+				3A152E7F1BE02348002A086B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A152E8E1BE02348002A086B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A152E971BE02348002A086B /* TowerDefenseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A152E991BE02348002A086B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A152EA21BE02348002A086B /* TowerDefenseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A152E941BE02348002A086B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A152E791BE02348002A086B /* TowerDefense */;
+			targetProxy = 3A152E931BE02348002A086B /* PBXContainerItemProxy */;
+		};
+		3A152E9F1BE02348002A086B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A152E791BE02348002A086B /* TowerDefense */;
+			targetProxy = 3A152E9E1BE02348002A086B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A152E8A1BE02348002A086B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A152E8B1BE02348002A086B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A152EA41BE02348002A086B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A152EA51BE02348002A086B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A152EA71BE02348002A086B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TowerDefense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.TowerDefense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A152EA81BE02348002A086B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TowerDefense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.TowerDefense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A152EAA1BE02348002A086B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TowerDefenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.TowerDefenseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowerDefense.app/Contents/MacOS/TowerDefense";
+			};
+			name = Debug;
+		};
+		3A152EAB1BE02348002A086B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TowerDefenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.TowerDefenseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowerDefense.app/Contents/MacOS/TowerDefense";
+			};
+			name = Release;
+		};
+		3A152EAD1BE02348002A086B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TowerDefenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.TowerDefenseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowerDefense;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A152EAE1BE02348002A086B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TowerDefenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.TowerDefenseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowerDefense;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A152E751BE02348002A086B /* Build configuration list for PBXProject "TowerDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A152EA41BE02348002A086B /* Debug */,
+				3A152EA51BE02348002A086B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A152EA61BE02348002A086B /* Build configuration list for PBXNativeTarget "TowerDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A152EA71BE02348002A086B /* Debug */,
+				3A152EA81BE02348002A086B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A152EA91BE02348002A086B /* Build configuration list for PBXNativeTarget "TowerDefenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A152EAA1BE02348002A086B /* Debug */,
+				3A152EAB1BE02348002A086B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A152EAC1BE02348002A086B /* Build configuration list for PBXNativeTarget "TowerDefenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A152EAD1BE02348002A086B /* Debug */,
+				3A152EAE1BE02348002A086B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A152E721BE02348002A086B /* Project object */;
+}
